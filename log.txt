@@ -1,0 +1,34 @@
+# def aiActionold():#笨蛋电脑行动
+    # while(1):
+    #     dangerToAi,danerPosList=aiDectUserWin()
+    #     if dangerToAi:#正经下子防守
+    #         for pos in danerPosList:
+    #             r,c,tpe=pos
+    #             if(tpe==1):
+    #                 shiWei=r+1#堵行
+    #                 geWei=c/3
+    #                 shiWeiDefendChoice1=r+1
+    #                 geWeiDefendChoice1=geWei-1
+    #                 shiWeiDefendChoice2=r+1
+    #                 geWeiDefendChoice1=geWei+3
+    #                 aiNum=10*shiWei+geWei
+    #                 global userActionHistory
+    #                 if (aiNum not in userActionHistory):
+    #                     if (geWei != 0):
+    #                         break
+    #             elif(tpe==2):
+    #                 pass#堵列
+    #             elif(tpe==3):
+    #                 pass#堵右对角线
+    #             elif(tpe==4):
+    #                 pass#堵左对角线
+#         else:#随便落子情况
+#             aiNum=random.randint(10,100)
+#             shiWei = aiNum // 10
+#             geWei = aiNum % 10
+#             global userActionHistory
+#             if(aiNum not in userActionHistory):
+#                 if(geWei!=0):
+#                     break
+#         global colLabel
+#     colLabel[shiWei - 1] = colLabel[shiWei - 1][:3 * geWei] + '■' + colLabel[shiWei - 1][3 * geWei + 1:];
